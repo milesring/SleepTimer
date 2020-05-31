@@ -1,6 +1,6 @@
 ﻿# SleepTimer
 
-![Alt text](/Docs/Screenshot.jpg?raw=true)
+![Alt text](/Docs/Screenshot.png?raw=true)
 
 I often fall asleep watching something before bed on my laptop.
 This usually results in a dead battery in the morning.
