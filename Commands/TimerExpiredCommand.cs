@@ -34,13 +34,13 @@ namespace SleepTimer.Commands
         void Standby()
         {
             // Standby
-            //SetSuspendState(false, true, true);
+            SetSuspendState(false, true, true);
         }
 
         void Hibernate()
         {
             // Hibernate
-            //SetSuspendState(true, true, true);
+            SetSuspendState(true, true, true);
         }
     }
 }
