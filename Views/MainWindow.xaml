@@ -22,13 +22,13 @@
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <Label Content="Timer Duration:"/>
             <Label Content="D:"/>
-            <TextBox Text="{Binding Days, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center"/>
+            <TextBox Text="{Binding Days, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"/>
             <Label Content="H:"/>
-            <TextBox Text="{Binding Hours, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center"/>
+            <TextBox Text="{Binding Hours, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"/>
             <Label Content="M:"/>
-            <TextBox Text="{Binding Minutes, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center"/>
+            <TextBox Text="{Binding Minutes, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"/>
             <Label Content="S:"/>
-            <TextBox Text="{Binding Seconds, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center"/>
+            <TextBox Text="{Binding Seconds, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center" PreviewTextInput="TextBox_PreviewTextInput"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" IsEnabled="{Binding TimerObject.TimerRunning, Converter={StaticResource InverseBoolConverter}}">
             <RadioButton GroupName="ShutdownType" Content="Hibernate" IsChecked="{Binding TimerObject.Hibernate}"/>

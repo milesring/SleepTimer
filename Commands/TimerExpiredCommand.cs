@@ -1,10 +1,4 @@
-﻿using SleepTimer.Models;
-using System;
-using System.Collections.Generic;
-using System.Management;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Windows;
+﻿using System.Runtime.InteropServices;
 
 namespace SleepTimer.Commands
 {

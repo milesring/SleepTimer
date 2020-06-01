@@ -1,8 +1,6 @@
 ﻿using SleepTimer.Commands;
 using SleepTimer.Models;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace SleepTimer.ViewModels
 {
@@ -77,6 +75,10 @@ namespace SleepTimer.ViewModels
             }
         }
 
+
+        #endregion
+
+        #region Public Methods
 
         #endregion
 
