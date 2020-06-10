@@ -8,6 +8,8 @@ using System.Windows;
 
 namespace SleepTimer
 {
+    //App icon made by Freepik from https://www.flaticon.com/
+
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>
